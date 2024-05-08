@@ -4,7 +4,7 @@
 	"description": "fcc backend boilerplate",
 	"main": "server.js",
 	"scripts": {
-		"start": "PORT=3000 node myApp.js"
+		"start": "cross-env PORT=3000 node myApp.js"
 	},
 	"dependencies": {
 		"express": "^4.19.2",
@@ -16,5 +16,8 @@
 		"express",
 		"freecodecamp"
 	],
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"cross-env": "^7.0.3"
+	}
 }
